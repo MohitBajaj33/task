@@ -1,0 +1,370 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 1px solid #25cffe;
+    padding-bottom: 5px;
+    
+
+}
+nav{
+ height: 40px;
+    margin-top: 10px;
+   
+}
+
+img{
+    display: inline;
+    height: 40px;
+    width: 140px;
+    margin-left: 40px;
+    margin-top: px;
+    float: left; 
+}
+nav ul{
+    margin-top: 30px;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+  margin-top: 10px;
+    font-size:20px;
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: #25cffe;
+}
+nav ul i{
+    
+    margin-right: 60px;
+    font-size:25px;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    float: right;
+}
+#internship{
+    fill: #FCFAFA;
+    color: #FCFAFA;
+    background-color: transparent;
+    background-image: linear-gradient(184deg, #305EF9 33%, #030303 79%);
+    border-style: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 40px;
+    font-size: 20px;
+    position:fixed;
+    right: 40px;
+    bottom: 60px;
+    z-index: 1000;
+    cursor: pointer;
+}
+.section1{
+    margin-top: 40px;
+    background-color: #198cab;
+    height: 600px;
+}
+.section1_text{
+padding-top: 100px;
+padding-left: 110px;
+}
+.section1_text p{
+    color: #ffff;
+    font-size: 20px;
+   line-height: 2px;
+}
+.section1_text h1{
+    font-size: 90px;
+    color: #ffff;
+    margin-top: 50px;
+}
+.section1_text p a{
+    color: #ffff;
+   text-decoration: none;
+}
+.button{
+    margin-top: 50px;
+    background-color: black;
+    display: inline;
+    padding: 10px 50px;
+   
+}
+.button a:hover{
+    color: rgb(78, 78, 235);
+}
+.main{
+    width: 90%;
+    height: 600px;
+    margin-left: 60px; 
+    position: absolute;
+    top: 670px;
+}
+.left_div{
+    float: left;
+    width: 60%;
+    height: 600px;
+    background-image: url('img/loptop.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left_div button{
+    width: 30%;
+    background-color: rgb(78, 78, 235);
+    border: none;
+    color: #ffff;
+    padding: 15px;
+    position: relative;
+    float: right;
+    bottom: -200px;
+    right: 50px;
+    cursor: pointer;
+
+}
+.left_div button:hover{
+    background-color: #ffff;
+    color: rgb(197, 196, 243);
+}
+.right_div{
+    float: right;
+    height: 600px;
+    width: 40%;
+    background-color: #fdf8f8;
+    z-index: 100;
+}
+.right_div_top{
+    width: 100%;
+    height:298px ;
+    display: flex;
+    text-align: center;
+
+    
+}
+.right_div_bottom{
+    height:298px ;
+    text-align: center;
+}
+.right_div_top_left{
+    width: 50%;
+    height: 298px;
+    float: left;
+}
+.right_div_top_right{
+    width: 50%;
+    float: right;
+    border-left: 1px solid rgb(227, 226, 226);
+    height: 298px;
+}
+.right_div_bottom_left{
+    border-top: 1px solid rgb(227, 226, 226);
+    width: 50%;
+    height: 298px;
+    float: left;
+}
+.right_div_bottom_right{
+    width: 50%;
+    float: right;
+    border-left: 1px solid rgb(227, 226, 226);
+    border-top: 1px solid rgb(227, 226, 226);
+    height: 298px;
+}
+.main h1{
+    font-size: 50px;
+    position: relative;
+    top: 40%;
+}
+.main p{
+    font-size: 20px;
+    color: gray;
+    position: relative;
+    top: 40%;
+}
+.section3{
+    height: 554px;
+    background-color: #ffff;
+}
+.section4{
+    height: 500px;
+}
+.left_content{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-image: url('img/images2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+}
+.content{
+    width: 471px;
+    top: 20%;
+    position: relative;
+    left: 15%;
+}
+.content h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 2;  
+}
+.content button{
+    margin-top: 40px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: #F9F4F4;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0B0B0B 0%, #f2295b 100%);
+}
+.right_content{
+    width: 50%;
+    float: right;
+    height: 100%;
+    background-color: rgb(246, 241, 241);
+}
+.content h4{
+    margin: 25px;
+    font-size: 25px;
+}
+.section5{
+    margin-top: 80px;
+    width: 100%;
+    height: 1100px;
+}
+.section5 h1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.course_internship{
+    width: 40%;
+    float: left;
+    margin-left: 70px;
+    text-align: center;
+}
+.course_internship img{
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+    height: 25%;
+    cursor: pointer;
+}
+
+.course_internship h2{
+ margin: 10px 20px;
+ color: #413e3e;
+}
+.course_internship p{
+   line-height: 1.5;
+   margin-bottom: 100px;
+   margin-left: 40px;
+   }
+.section6
+{
+    width: 100%;
+   
+    height: 600px;
+}
+.outer_contect{
+height: 600px;
+width: 50%;
+float: left;
+background-color: #212d45;
+}
+
+.inner_contect{
+    margin-left: 50px;
+    color: #fdf8f8;
+}
+.inner_contect h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.inner_contect p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.inner_contect input{
+    width: 80%;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+textarea{
+    padding:20px 20px;
+}
+.inner_contect button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #FCFAFA;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.inner_contect button:hover{
+    background-color: #3b91f3;
+}
+.right_contect{
+    width: 50%;
+    float: left;
+}
+.inner_contect1{
+    margin-top: 10%;
+    margin-left: 90px;
+}
+.inner_contect1 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.first{
+    cursor: pointer;
+    width: 80%;
+    border: 1px solid;
+
+}
+.first h2{
+    margin: 10px;
+    color: rgb(60, 58, 58);
+}
+.first1{
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.first1 p{
+    margin-left: 10px;
+    margin: 10px 10px;
+    font-size: 20px;
+    color: rgb(87, 83, 83);
+}
+footer{
+    margin-top: 10%;
+    background-color:#212d45 ;
+    align-items: center;
+}
+footer p{
+    padding: 30px;
+    margin-left: 20px;
+    color: white;
+}
+.icon{
+    float: right;
+    margin-top: -50px;
+    margin-right: 80px;
+}
+.icon i{
+
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
